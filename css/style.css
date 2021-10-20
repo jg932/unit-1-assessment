@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(111, 111, 111);
+}
+
+section {
+  display: flex;  /* defaults to row layout */
+  justify-content: center;  /* centers items horizontally in row layout */
+  align-items: center;  /* centers vertically in row layout */
+  /* flex-direction: column; will set layout to column instead of row */
+
+}
+
+.buttons {
+  height: 50px;
+  width: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  border: solid 5px;
+  border-color: rgb(58, 58, 58);
+}
+
+#current-count{
+  font-size: 50px;
+  font-weight: bold;
+  margin: auto;
+}
+
+#user-input{
+  height: 38px;
+  width: 100px;
+  margin: 0 10px 0 10px;
+  border: 5px solid rgb(58, 58, 58);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: lighter;
+}
+
+.highlighted{
+  background-color: rgb(58, 58, 58);
+  color:white;
+}
